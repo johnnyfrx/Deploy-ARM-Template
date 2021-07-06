@@ -10,7 +10,7 @@ env:
 
 jobs:
   deploy-virtual-network-template:
-    runs-on: default
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
         uses: actions/checkout@master
